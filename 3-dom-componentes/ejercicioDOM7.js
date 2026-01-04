@@ -155,6 +155,7 @@ function ListaTareasSubtareas() {
 
     load();
     render();
+    
 }
 
 ListaTareasSubtareas();
