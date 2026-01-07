@@ -20,5 +20,5 @@ console.log(productosFinales);
 const soloDisponibles = productos.filter( p => hayStock(p));
 console.log(soloDisponibles);
 
-const promedioPrecio = productos.reduce((acc, p) => acc + conIVA(p.precio), 0) / productos.length;
+const promedioPrecio = productos.reduce((acc, p) => acc + conIVA(p), 0) / productos.length;
 console.log(promedioPrecio);
